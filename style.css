@@ -1,0 +1,87 @@
+body 
+{
+    background-color: rgb(52, 54, 131);
+    margin: 0px;
+    height: 100dvh;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Container
+{
+    border: rgba(123, 157, 219, 0.3) 2px solid;
+    background-color: rgba(123, 157, 219, 0.3);
+    border-radius: 20px;
+    width: 650px; 
+}
+
+h1, h2, p 
+{
+    color: white; 
+}
+
+.searchbar
+{
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 100px; 
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.search
+{
+    border: white 2px solid;
+    margin-right: 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn
+{
+    border-radius: 20px;
+    border: 2px solid rgb(51, 165, 51);
+    background-color: rgb(51, 165, 51);
+    color: white; 
+    width: 100px;
+    height: 35px;
+}
+
+.temp_Location
+{
+    text-align: center;
+}
+
+.temp_Location h2 
+{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.temp_Location h1
+{
+    font-size: 65px;
+}
+
+.AreaContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Area1, .Area2
+{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
