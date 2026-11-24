@@ -11,34 +11,34 @@ let Area2 = document.querySelector(".Area2")
 let Container = document.querySelector(".Container"); 
 
 const weatherCodeMap = {
-    0: ["Clear Sky", "../icons/sun.png"],
-    1: ["Mainly Clear", "../icons/sun.png"],
-    2: ["Partly Cloudy", "../icons/cloudy.png"],
-    3: ["Overcast", "../icons/overcast.png"],
-    45: ["Fog", "../icons/fog.png"],
-    48: ["Depositing Rime Fog", "../icons/fog.png"],
-    51: ["Light Drizzle", "../icons/rain.png"],
-    53: ["Moderate Drizzle", "../icons/rain.png"],
-    55: ["Dense Drizzle", "../icons/rain.png"],
-    56: ["Light Freezing Drizzle", "../icons/rain.png"],
-    57: ["Dense Freezing Drizzle", "../icons/rain.png"],
-    61: ["Slight Rain", "../icons/rain.png"],
-    63: ["Moderate Rain", "../icons/rain.png"],
-    65: ["Heavy Rain", "../icons/rain.png"],
-    66: ["Light Freezing Rain", "../icons/rain.png"],
-    67: ["Dense Freezing Rain", "../icons/rain.png"],
-    71: ["Light Snow", "../icons/snow.png"],
-    73: ["Moderate Snow", "../icons/snow.png"],
-    75: ["Heavy Snow", "../icons/snow.png"],
-    77: ["Snow Grains", "../icons/snow.png"],
-    80: ["Slight Rain Showers", "../icons/rain.png"],
-    81: ["Moderate Rain Showers", "../icons/rain.png"],
-    82: ["Violent Rain Showers", "../icons/rain.png"],
-    85: ["Slight Snow Showers", "../icons/snow.png"],
-    86: ["Heavy Snow Showers", "../icons/snow.png"],
-    95: ["Thunderstorm", "../icons/thunderstorm.png"],
-    96: ["Thunderstorm With Slight Hail", "../icons/thunderstorm.png"],
-    99: ["Thunderstorm With Heavy Hail", "../icons/thunderstorm.png"]
+    0: ["Clear Sky", "icons/sun.png"],
+    1: ["Mainly Clear", "icons/sun.png"],
+    2: ["Partly Cloudy", "icons/cloudy.png"],
+    3: ["Overcast", "icons/overcast.png"],
+    45: ["Fog", "icons/fog.png"],
+    48: ["Depositing Rime Fog", "icons/fog.png"],
+    51: ["Light Drizzle", "icons/rain.png"],
+    53: ["Moderate Drizzle", "icons/rain.png"],
+    55: ["Dense Drizzle", "icons/rain.png"],
+    56: ["Light Freezing Drizzle", "icons/rain.png"],
+    57: ["Dense Freezing Drizzle", "icons/rain.png"],
+    61: ["Slight Rain", "icons/rain.png"],
+    63: ["Moderate Rain", "icons/rain.png"],
+    65: ["Heavy Rain", "icons/rain.png"],
+    66: ["Light Freezing Rain", "icons/rain.png"],
+    67: ["Dense Freezing Rain", "icons/rain.png"],
+    71: ["Light Snow", "icons/snow.png"],
+    73: ["Moderate Snow", "icons/snow.png"],
+    75: ["Heavy Snow", "icons/snow.png"],
+    77: ["Snow Grains", "icons/snow.png"],
+    80: ["Slight Rain Showers", "icons/rain.png"],
+    81: ["Moderate Rain Showers", "icons/rain.png"],
+    82: ["Violent Rain Showers", "icons/rain.png"],
+    85: ["Slight Snow Showers", "icons/snow.png"],
+    86: ["Heavy Snow Showers", "icons/snow.png"],
+    95: ["Thunderstorm", "icons/thunderstorm.png"],
+    96: ["Thunderstorm With Slight Hail", "icons/thunderstorm.png"],
+    99: ["Thunderstorm With Heavy Hail", "icons/thunderstorm.png"]
 };
 
 document.addEventListener("DOMContentLoaded", function()
@@ -124,7 +124,7 @@ async function getweather()
     }
     else if (isDay == 0)
     {
-        img.src = "../icons/mond.png"; 
+        img.src = "icons/mond.png"; 
     }
 
     Wind.innerHTML = `${windspeed}${windspeedSymbol}`
